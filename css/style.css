@@ -1,0 +1,13 @@
+.navbar {
+    background-color: rgb(243, 212, 134) !important;
+}
+
+.container {
+    text-emphasis-color: black;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    background-color: rgb(243, 212, 134);
+}
+.jumbotron {
+    background-color: rgb(229, 182, 64);
+}
