@@ -10,4 +10,9 @@
 }
 .jumbotron {
     background-color: rgb(229, 182, 64);
+    
+}
+#myImg {
+    width: 150px;
+    height: 150px;
 }
