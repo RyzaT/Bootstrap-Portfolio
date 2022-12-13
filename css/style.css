@@ -7,6 +7,7 @@
     text-decoration-line: underline;
     text-decoration-color: black;
     background-color: rgb(243, 212, 134);
+    
 }
 .jumbotron {
     background-color: rgb(229, 182, 64);
@@ -14,7 +15,17 @@
 }
 <!--Work-->
 
+.work-bg {
+    text-align: center;
+    background-color: rgb(229, 182, 64);
+}
 .work-card {
+    text-align: center;
+    background-color: rgb(243, 212, 134);
+    color: #fe4f6c;
+}
+
+.card-group {
     text-align: center;
     background-color: rgb(229, 182, 64);
 }
@@ -27,16 +38,21 @@
 }
 <!--Skills-->
 
-.skills-list {
-   background-color: rgb(229, 182, 64);
-   text-align: center;
+.skill-bg {
+    background-color: rgb(229, 182, 64);
 }
-.list-group, .list-group-item {
+
+.skills-list {
+   background-color: rgb(243, 212, 134);
+   text-align: center;
+   color: #fe4f6c;
+}
+.list-group .list-group-item {
     text-align: center;
     background-color: rgb(243, 212, 134);
 }
-.list-group-item active {
-    background-color: bisque;
+.list-group-item {
+    background-color: rgb(243, 212, 134);
 }
 
 <!--About Me-->
@@ -159,7 +175,7 @@ body{margin-top:20px;}
     position: relative;
 }
 .gray-bg {
-    background-color: #ebf4fa;
+    background-color: rgb(229, 182, 64);
 }
 .px-btn.theme {
     background: #fe4f6c;
@@ -202,11 +218,11 @@ body{margin-top:20px;}
     padding: 20px;
     border-right: 1px solid #fe4f6c;
     transition: all .20s ease;
-    box-shadow: inset;
+    box-shadow:
   }
   .footer a:first-child {
     border-left: 1px solid #fe4f6c;
   }
   .footer a:hover {
-    color: white;
+    box-shadow: 0.8;
   }
