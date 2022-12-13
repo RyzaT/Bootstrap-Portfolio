@@ -11,7 +11,8 @@
 }
 
 .jumbotron {
-    background-color: rgb(229, 182, 64)
+    background-color: rgb(229, 182, 64);
+    font-weight: bolder;
     
 }
 <!--Work-->
@@ -50,10 +51,13 @@
 }
 .list-group .list-group-item {
     text-align: center;
+    font-size: medium;
+    font-weight: bold;
     background-color: rgb(243, 212, 134);
 }
 .list-group-item {
     background-color: rgb(243, 212, 134);
+    text-decoration: solid;
 }
 
 <!--About Me-->
@@ -136,7 +140,7 @@ body{margin-top:20px;}
 }
 #me-img {
     width: 360px;
-    height: 330px;
+    height: 310px;
 }
 
 .about-img {
