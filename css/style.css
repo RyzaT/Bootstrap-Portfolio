@@ -189,18 +189,20 @@ body{margin-top:20px;}
     color: #fe4f6c;
 }
 
-<!--footer contact-->
+<!--footer-->
 
 .footer {
     background: #061D25;
-    padding: 10px 0;
+    padding: 100px 0;
+    
   }
   .footer a {
     color: #fe4f6c;
-    font-size: 20px;
-    padding: 10px;
+    font-size: 60px;
+    padding: 20px;
     border-right: 1px solid #fe4f6c;
     transition: all .20s ease;
+    box-shadow: inset;
   }
   .footer a:first-child {
     border-left: 1px solid #fe4f6c;
